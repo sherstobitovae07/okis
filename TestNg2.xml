@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+    <test name="Nopackage">
+        <classes>
+            <class name="org.example.TestMatrica">
+                <methods>
+                    <include name="testShtuka1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="org.example.TestStr">
+                <methods>
+                    <include name="testReverseString"/>
+                    <include name="verifyData1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
